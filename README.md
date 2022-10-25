@@ -1,5 +1,9 @@
 # TOP-LandingPage
 
+##Live Preview
+
+https://fauxllacy.github.io/TOP-LandingPage/
+
 ## Description
 
 - I built a landing page from scratch by utilizing the directions provided by the Odin Project.
