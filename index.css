@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&family=Roboto+Mono:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --text: #F9FAF8;
+    --quote-text: #1F2937;
+    --secondary-text: #E5E7EB;
+    --hover: #ffef96;
+    --button: white;
+    --primary-background: black;
+    --secondary-background: #E5E7EB;
+}
+
+/* <!--Header--!> */
+li, a {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    background-color: var(--primary-background);
+    color: var(--text);
+}
+
+.logo {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: var(--hover)
+}
+/* <!--End Header--!> */
+
+/* <!--First Hero--!> */
+.hero {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    background-color: var(--primary-background);
+    color: var(--text);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 50px 0px 50px 0px;
+}
+
+.left {
+    max-width: 60%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: var(--text);
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 10px;
+    color: var(--secondary-text);
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+
+button {
+    background-color: var(--button);
+    color: black;
+    border: #3882F6;
+    font-size: 14px;
+    padding: 6px 25px;
+    border-radius: 7px;
+    margin: 16px 0px;
+}
+
+#ramen {
+    height: auto;
+    width: 500px;
+    height: 340px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 30px;
+}
+/* <!--End First Hero--!> */
+
+/* <!--Second Hero--> */
+
+.random-info h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 36px;
+}
+
+.cards {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 60px;
+}
+
+.cards .info {
+    display: flex;
+    color: black;
+    /* text-align: left; */
+    font-size: 15px;
+    padding-bottom: 120px;
+}
+
+.cards .icon-title {
+    padding: 20px 0px 15px 0px;
+}
+
+.food-icons {
+    text-align: center;
+    padding-top: 80px;
+    max-width: 300px;
+}
+
+/* <!--End Second Hero--> */
+
+/* <!--Start Quote Section--> */
+
+.quote-section {
+    background-color: var(--secondary-background);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-info h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    color: var(--quote-text);
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 53px;
+    max-width: 900px;
+}
+
+.by-line {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    text-align: right;
+    font-style: italic;
+    font-size: 19px;
+    padding-top: 30px;
+}
+
+/* <!--End Quote Section--> */
+
+/* <!--Start End Card Section--> */
+
+.card {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-card {
+    display: flex;
+    color: var(--secondary-text);
+    background-color: var(--primary-background);
+    text-align: left;
+    border-radius: 7px;
+    padding: 50px 100px 30px 100px;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.end-card-title {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.end-card-info {
+    font-size: 13px;
+    /* float: left; */
+    align-items: center;
+}
+
+.end-button {
+    color: black;
+    border: black;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 7px;
+    align-self: center;
+}
+
+/* <!--End End Card Section--> */
+
+/* <!--Footer--> */
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+    color: var(--text);
+    background-color: black;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+/* <!--End Footer--> */
