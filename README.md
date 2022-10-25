@@ -20,7 +20,9 @@ Table of Contents:
 The following website created only allows viewers to view the landing page.
 Each section on the page serves as an understanding of section order built with HTML and CSS.
 
-![LandingPage]()
+![LandingPage]![Kotatsu-Club-01](https://user-images.githubusercontent.com/106291908/197661231-2a4f7082-bb95-4425-9313-1630531d2b18.jpg)
+![Kotatsu-Club-02](https://user-images.githubusercontent.com/106291908/197661242-27ebadfa-a405-4688-bba7-25d64f949815.jpg)
+
   
 ## Credits
 
